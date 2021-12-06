@@ -4,6 +4,7 @@ module.exports = {
   development: {
     client: process.env.DB_CLIENT,
     connection: {
+      socketPath: process.env.DB_SOCKET,
       port: process.env.DB_PORT,
       database: process.env.DB_NAME,
       host: process.env.DB_HOST,
@@ -23,6 +24,7 @@ module.exports = {
   production: {
     client: process.env.DB_CLIENT,
     connection: {
+      socketPath: process.env.DB_SOCKET,
       port: process.env.DB_PORT,
       database: process.env.DB_NAME,
       host: process.env.DB_HOST,
