@@ -117,6 +117,8 @@ DB_CHARSET='utf8'
 The migration files are in the `/database/migrations` folder. They create tables in your existing database.
 
 `cd nuxt-ssr-secure-website`  
+(`npx knex migrate:unlock --knexfile knexfile.cjs`  if it was not the first try)
+
 `npx knex migrate:latest --knexfile knexfile.cjs`  
 If you installed Knex globally (npm install knex -g)  
 `knex migrate:latest --knexfile knexfile.cjs`
