@@ -1,4 +1,7 @@
-# Nuxt SSR Secure Website
+# Nuxt SSR Secure Website 
+by [@adamlove01](https://github.com/adamlove01/nuxt-ssr-secure-website)
+
+#### with trys to get the code run with [MariaDB Ver 15.1 Distrib 10.3.31-](https://mariadb.org/) / [Lubuntu 20.04.3 LTS](https://lubuntu.me/) (openjdk 11.0.11 2021-04-20, node v16.13.0, @vue/cli 4.5.15)
 
 <img src="static/docs/app-screenshot.png" />
 <br><br>
